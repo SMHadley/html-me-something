@@ -1,0 +1,47 @@
+        body {
+            color: black;
+        }
+        
+        h1 {
+            color: black;
+        }
+        
+        button {
+            color: black;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 5px white;
+        }
+        
+        p {
+            word-break: keep-all;
+        }
+        
+        .photo-flavor {
+            border-radius: 15px;
+            width: 500px;
+            height: 340px;
+        }
+        
+        #models-button {
+            border-radius: 10px;
+            width: 100px;
+            height: 60px;
+            background-image: url("images/Monsters.jpg");
+            background-size: 100px 60px;
+        }
+        
+        #features-button {
+            border-radius: 10px;
+            width: 100px;
+            height: 60px;
+            background-image: url("images/cthulhu.jpg");
+            background-size: 100px 60px;
+        }
+        
+        #specials-button {
+            border-radius: 10px;
+            width: 100px;
+            height: 60px;
+            background-image: url("images/Velvet-dogs.jpg");
+            background-size: 100px 60px;
+        }
