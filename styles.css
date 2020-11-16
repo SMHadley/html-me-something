@@ -1,47 +1,136 @@
-        body {
-            color: black;
-        }
-        
-        h1 {
-            color: black;
-        }
-        
-        button {
-            color: black;
-            letter-spacing: 2px;
-            text-shadow: 2px 2px 5px white;
-        }
-        
-        p {
-            word-break: keep-all;
-        }
-        
-        .photo-flavor {
-            border-radius: 15px;
-            width: 500px;
-            height: 340px;
-        }
-        
-        #models-button {
-            border-radius: 10px;
-            width: 100px;
-            height: 60px;
-            background-image: url("images/Monsters.jpg");
-            background-size: 100px 60px;
-        }
-        
-        #features-button {
-            border-radius: 10px;
-            width: 100px;
-            height: 60px;
-            background-image: url("images/cthulhu.jpg");
-            background-size: 100px 60px;
-        }
-        
-        #specials-button {
-            border-radius: 10px;
-            width: 100px;
-            height: 60px;
-            background-image: url("images/Velvet-dogs.jpg");
-            background-size: 100px 60px;
-        }
+                    body {
+                        font-family: Verdana, Geneva, sans-serif;
+                        color: black;
+                        background-color: rgba(107, 255, 235, 0.349);
+                    }
+                    
+                    h1 {
+                        font-variant: small-caps;
+                        color: black;
+                        text-align: center;
+                    }
+                    
+                    h2 {
+                        font-variant: small-caps;
+                        text-align: center;
+                        padding-bottom: 20px;
+                    }
+                    
+                    .flex-container {
+                        display: flex;
+                        justify-content: space-around;
+                        flex-flow: row wrap;
+                    }
+                    
+                    p {
+                        word-break: keep-all;
+                        color: rgb(76, 73, 68);
+                        text-shadow: 0px 0px 1px rgb(76, 73, 68);
+                    }
+                    
+                    #models-button {
+                        font-variant: small-caps;
+                        border-radius: 12px;
+                        width: 160px;
+                        height: 80px;
+                        background-image: url("images/Monsters-med.jpg");
+                        background-size: 160px 80px;
+                        padding: 20 px;
+                    }
+                    
+                    #features-button {
+                        font-variant: small-caps;
+                        border-radius: 12px;
+                        width: 160px;
+                        height: 80px;
+                        background-image: url("images/cthulhu-med.jpg");
+                        background-size: 160px 80px;
+                    }
+                    
+                    #specials-button {
+                        font-variant: small-caps;
+                        border-radius: 12px;
+                        width: 160px;
+                        height: 80px;
+                        background-image: url("images/Velvet-dogs-med.jpg");
+                        background-size: 160px 80px;
+                    }
+                    
+                    a[href] {
+                        font-family: Verdana, Geneva, sans-serif;
+                        font-size: 18px;
+                        color: black;
+                        font-weight: bold;
+                        letter-spacing: 2px;
+                        text-shadow: 2px 2px 3px rgb(241, 237, 237);
+                        border-radius: 12px;
+                    }
+                    
+                    .fancy-symbol {
+                        font-size: 25px;
+                    }
+                    
+                    #para-intro-cont {
+                        float: right;
+                        background-color: rgba(233, 209, 70, 0.822);
+                        border-radius: 10px;
+                        padding-top: 15px;
+                        padding-left: 30px;
+                        padding-right: 30px;
+                        padding-bottom: 40px;
+                        box-shadow: 8px 8px 4px rgb(116, 114, 114);
+                        margin-top: 30px;
+                    }
+                    
+                    #bridge-box {
+                        float: left;
+                        margin-right: 15px;
+                        margin-bottom: 15px;
+                    }
+                    
+                    #para-about-cont {
+                        float: left;
+                        background-color: rgba(209, 155, 75, 0.836);
+                        border-radius: 10px;
+                        padding-top: 15px;
+                        padding-left: 15px;
+                        padding-right: 30px;
+                        padding-bottom: 30px;
+                        box-shadow: 8px 8px 4px rgb(116, 114, 114);
+                    }
+                    
+                    #beast-box {
+                        float: right;
+                        margin-left: 15px;
+                        margin-bottom: 15px
+                    }
+                    
+                    #para-extras-cont {
+                        float: right;
+                        background-color: rgba(255, 160, 52, 0.863);
+                        border-radius: 10px;
+                        padding-top: 15px;
+                        padding-left: 30px;
+                        padding-right: 30px;
+                        padding-bottom: 40px;
+                        box-shadow: 8px 8px 4px rgb(116, 114, 114);
+                        margin-bottom: 10px;
+                    }
+                    
+                    #hope-med {
+                        float: left;
+                        margin-right: 15px;
+                        margin-bottom: 15px;
+                    }
+                    
+                    .photo-flavor {
+                        border-radius: 15px;
+                        width: 500px;
+                        height: 340px;
+                        padding: 15 px;
+                        box-shadow: 4px 4px 2px rgb(35, 34, 36);
+                    }
+                    
+                    footer {
+                        font-size: 10px;
+                    }
